@@ -1,7 +1,8 @@
-def fib(n):
+def fibonacci(number):
   a, b = 0, 1
-  while a < n:
+
+  while a < number:
     print(a, end=' ')
     a, b = b, a+b
   
-fib(2000)
+fibonacci(2000)
